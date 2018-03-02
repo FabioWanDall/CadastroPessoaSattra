@@ -1,0 +1,34 @@
+/*
+Linguagem de desenvolvimento JAVA 
+Banco de dados Mysql
+
+Interface com usuário: Livre
+
+Saída de dados: arquivo txt seguindo o seguinte formato: Cada linha irá conter um registro, 
+os campos dos registros na linha serão separados pelo caracter '#'
+
+Testes automatizados: Quanto maior a cobertura melhor utilizando preferencialmente JUNIT
+
+DADOS:
+	Nome
+	
+	CPF(validar)
+	
+-Contatos
+	Telefone
+	Email
+	
+-Endereço
+	CEP(deverá consultar dados através da api pública viacep e preencher o restante dos campos.
+	uf
+	localidade(cidade)
+	bairro
+	Logradouro
+	Numero
+	Complemento
+	
+	Observações
+	
+Deverá haver opções de cadastro, edição,exclusão e de exportação dos dados no formato especificado em "Saída de dados". 
+Além disso o sistema deverá apresentar uma lista das pessoas cadastradas com opções de filtro e ordenação.
+*/
